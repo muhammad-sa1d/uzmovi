@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>   
+<body class="bg-regal-black">
+  <!-- header -->
+  <header id="header" class="bg-regal-black-2 border-y border-regal-black-3">
+    <div class="max-w-1170 w-full mx-auto md:px-7 px-5">
+      <nav>
+        <div class="lg:flex hidden items-center justify-between ">
+            <div>
+              <a href="#" class="">
+                <img src="img/logo.gif" alt="">
+              </a>
+            </div>
+            <div class="flex items-center">
+                <div class="group">
+                  <a href="#" class="font-semibold py-10 px-3 text-sm text-regal-white border-regal-yellow group-hover:bg-regal-yellow group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 border-b uppercase">Bosh sahifa</a>
+                </div>
+                <div class="group">
+                  <button class="relative flex items-center gap-2 group
+                  border-b focus:outline-none outline-none focus:ring text-regal-white border-regal-blue group-hover:bg-regal-blue group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 py-10 px-3">
+                  <p class="font-semibold text-sm uppercase">Kinolar</p>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-regal-white">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                  </span>
+                  <div class="absolute hidden -right-35r mt-4 group-focus:block top-full min-w-full w-max bg-white shadow-md rounded">
+                    <ul class="text-center  border flex gap-4 bg-regal-black-2 p-5 rounded-md border-regal-black-2 pt-4">
+                      <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215"> Tarjima Kinolar </li>
+                      <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Premyeralar</li>
+                      <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Hind kinolar</li>
+                      <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Multfilm</li>
+                      <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">KINO YANGILIKLARI</li>
+                    </ul>
+                  </div>
+                </button>
+                </div>
+                <div class="group">
+                  <a href="#" class="font-semibold py-10 px-3 text-sm text-regal-white border-regal-yellow-2 group-hover:bg-regal-yellow-2 group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 border-b uppercases">Seriallar</a>
+                </div>
+                <div class="group">
+                  <button class="relative flex items-center gap-2 group
+                  border-b focus:outline-none outline-none focus:ring text-regal-white border-regal-blue group-hover:bg-regal-blue group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 py-10 px-3">
+                  <p class="font-semibold text-sm uppercase">Janr</p>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-regal-white">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                  </span>
+                  <div class="absolute hidden -right-96 mt-4 group-focus:block top-full min-w-full w-max bg-white shadow-md rounded">
+                    <div class="text-center  border  flex flex-col gap-3 bg-regal-black-2 p-5 rounded-md border-regal-black-2 pt-4">
+                      <ul class="flex gap-5">
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Jangari</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Drama</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Komediya</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Melodramma</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Sarguzasht</li>
+                      </ul>
+                      <ul class="text-center flex gap-5">
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Qo'rqinchili</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Tarixiy</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Klassika</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Fantastika</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Hayotiy</li>
+                      </ul>
+                    </div>
+                   
+                  </div>
+                </button>
+                </div>
+                <div class="group">
+                  <button class="relative flex items-center gap-2 group
+                  border-b focus:outline-none outline-none focus:ring text-regal-white border-regal-yellow group-hover:bg-regal-yellow group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 py-10 px-3">
+                  <p class="font-semibold text-sm uppercase">Yil</p>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-regal-white">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                  </span>
+                  <div class="absolute hidden -right-21r mt-4 group-focus:block top-full min-w-full w-max bg-white shadow-md rounded">
+                    <div class="text-center  border  flex flex-col gap-3 bg-regal-black-2 p-5 rounded-md border-regal-black-2 pt-4">
+                      <ul class="flex gap-5">
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2023</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2022</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2021</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2020</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2019</li>
+                      </ul>
+                      <ul class="text-center flex gap-5">
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2018</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2017</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2016</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2015</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2014</li>
+                      </ul>
+                      <ul class="text-center flex gap-5">
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2013</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2012</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2011</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">2010</li>
+                      </ul>
+                    </div>
+                   
+                  </div>
+                </button>
+                </div>
+                <div class="group">
+                  <button class="relative flex items-center gap-2 group
+                  border-b focus:outline-none outline-none focus:ring text-regal-white border-regal-yellow group-hover:bg-regal-yellow group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 py-10 px-3">
+                  <p class="font-semibold text-sm uppercase"> Mamlakat </p>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-regal-white">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                  </span>
+                  <div class="absolute hidden -right-44 mt-4 group-focus:block top-full min-w-full w-max bg-white shadow-md rounded">
+                    <div class="text-center  border  flex flex-col gap-3 bg-regal-black-2 p-5 rounded-md border-regal-black-2 pt-4">
+                      <ul class="flex gap-5">
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Rossiya</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">AQSH</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Turkiya</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Xitoy</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Hindiston</li>
+                      </ul>
+                      <ul class="text-center flex gap-5">
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Avstraliya</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Buyuk britaniya</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Janubiy koreya</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Ukraina</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Qozogʻiston</li>
+                      </ul>
+                      <ul class="text-center flex gap-5">
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Fransiya</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Eron</li>
+                        <li class="px-4 bg-regal-grey py-3 rounded hover:bg-blue-900 hover:duration-500 w-215">Yaponiya</li>
+                      </ul>
+                    </div>
+                   
+                  </div>
+                </button>
+                </div>
+                 <div class="group">
+                  <a href="#" class="font-semibold py-10 px-3 text-sm text-regal-white border-regal-puple group-hover:bg-regal-puple group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 border-b uppercase
+                  ">Konsert</a>
+                </div>
+                <div class="group">
+                  <a href="#" class="font-semibold py-10 px-3 text-sm text-regal-white border-regal-yellow group-hover:bg-regal-yellow group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 border-b uppercase
+                  ">Treyler</a>
+                </div>
+            </div>
+        </div>
+        <!-- items for mobil -->
+        <div class="lg:hidden flex items-center justify-between py-4">
+          <a href="" class="">
+            <img src="img/logo.gif" alt="" class="sm:w-full w-40">
+          </a>
+          <button class="menubtn lg:hidden flex bg-regal-puple-3 sm:p-4 p-2 rounded-md gap-1 items-center border border-regal-white">
+            <p class="sm:text-xl text-sm text-regal-white">Menu</p>          
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-regal-white w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+        <div class="menu fixed z-50 top-0 right-0 left-0 bg-regal-black-2 py-6 px-5 -translate-y-full transition-all ease-linear">
+          <div class="">
+            <div class="lg:hidden flex items-center justify-between border-b pb-4 mb-4  border-regal-puple-2">
+              <a href="" class="">
+                <img src="img/logo.gif" alt="" class="sm:w-full w-40">
+              </a>
+              <button class="xbtn lg:hidden flex bg-regal-puple-3 sm:p-4 p-2 rounded-md gap-1 items-center border border-regal-white">
+                <p class="sm:text-xl text-sm text-regal-white">Menu</p>          
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-regal-white">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+          </div>
+         <div class="">
+          <div class="flex flex-col touch-auto	">
+            <div class="group mb-2">
+              <a href="#" class="font-semibold w-full bg-regal-black flex py-3 px-4 rounded text-sm text-regal-white border-regal-yellow group-hover:bg-regal-yellow group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 border-b uppercase">Bosh sahifa</a>
+            </div>
+            <div class="group w-full mb-2">
+              <button class="relative flex items-center justify-between rounded gap-2 group w-full bg-regal-black
+              border-b focus:outline-none outline-none focus:ring text-regal-white border-regal-blue group-hover:bg-regal-blue group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 py-3 px-4">
+              <p class="font-semibold text-sm uppercase">Kinolar</p>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-regal-white">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </span>
+              <div class="absolute hidden z-50 mt-4 group-focus:block inset-x-0 top-full w-full bg-white shadow-md rounded">
+                <ul class="text-center w-full grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 bg-regal-black-2 p-5 rounded-md border-regal-black-2 pt-4">
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full"> Tarjima Kinolar </li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Premyeralar</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Hind kinolar</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Multfilm</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">KINO YANGILIKLARI</li>
+                </ul>
+              </div>
+            </button>
+            </div> 
+            <div class="group mb-2">
+              <a href="#" class="font-semibold w-full bg-regal-black flex py-3 px-4 rounded text-sm text-regal-white border-regal-yellow-2 group-hover:bg-regal-yellow-2 group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 border-b uppercase"> Seriallar </a>
+            </div>
+            <div class="group w-full mb-2">
+              <button class="relative flex items-center justify-between rounded gap-2 group w-full bg-regal-black
+              border-b focus:outline-none outline-none focus:ring text-regal-white border-regal-blue group-hover:bg-regal-blue group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 py-3 px-4">
+              <p class="font-semibold text-sm uppercase"> Janr </p>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-regal-white">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </span>
+              <div class="absolute hidden mt-4 z-50 group-focus:block inset-x-0 top-full w-full bg-white shadow-md rounded">
+                <ul class="text-center w-full z-50 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 bg-regal-black-2 p-5 rounded-md border-regal-black-2 pt-4">
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Jangari</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Drama</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Komediya</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Melodramma</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Sarguzasht</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Qorqinchili</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Tarixiy</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Klassika</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Fantastika</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Hayotiy</li>
+                  
+                </ul>
+              </div>
+            </button>
+            </div> 
+            <div class="group w-full mb-2">
+              <button class="relative flex items-center justify-between rounded gap-2 group w-full bg-regal-black
+              border-b focus:outline-none outline-none focus:ring text-regal-white border-regal-blue group-hover:bg-regal-blue group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 py-3 px-4">
+              <p class="font-semibold text-sm uppercase">Yil</p>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-regal-white">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </span>
+              <div class="absolute hidden mt-4 z-50 group-focus:block inset-x-0 top-full w-full bg-white shadow-md rounded">
+                <ul class="text-center w-full z-50 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 bg-regal-black-2 p-5 rounded-md border-regal-black-2 pt-4">
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2023</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2022</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2021</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2020</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2019</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2018</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2017</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2016</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2015</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2014</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2013</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2012</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2011</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">2010</li>
+                </ul>
+              </div>
+            </button>
+            </div> 
+            <div class="group w-full mb-2">
+              <button class="relative flex items-center justify-between rounded gap-2 group w-full bg-regal-black
+              border-b focus:outline-none outline-none focus:ring text-regal-white border-regal-blue group-hover:bg-regal-blue group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 py-3 px-4">
+              <p class="font-semibold text-sm uppercase">Mamlakat</p>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-regal-white">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </span>
+              <div class="absolute hidden mt-4 z-50;;// group-focus:block inset-x-0 top-full w-full bg-white shadow-md rounded">
+                <ul class="text-center w-full z-50 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 bg-regal-black-2 p-5 rounded-md border-regal-black-2 pt-4">
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Rossiya</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">AQSH</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Turkiya</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Xitoy</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Hindiston</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Avstraliya</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Buyuk britaniya</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Janubiy koreya</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Ukraina</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Qozogʻiston</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Fransiya</li>
+                  <li class="px-4 bg-regal-grey py-3 rounded bg-regal-puple-2 hover:bg-blue-900 hover:duration-500 w-full">Eron</li>
+                </ul>
+              </div>
+            </button>
+            </div>
+            <div class="group mb-2">
+              <a href="#" class="font-semibold w-full bg-regal-black flex py-3 px-4 rounded text-sm text-regal-white border-regal-puple group-hover:bg-regal-puple group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 border-b uppercase">Konsert</a>
+            </div>
+            <div class="group mb-2">
+              <a href="#" class="font-semibold w-full bg-regal-black flex py-3 px-4 rounded text-sm text-regal-white border-regal-yellow group-hover:bg-regal-yellow group-hover:bg-opacity-60 group-hover:text-white group-hover:duration-200 border-b uppercase">Konsert</a>
+            </div>
+        </div>
+         </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- header -->
+  <!-- serach -->
+  <section id="serach">
+    <div class="max-w-1170 w-full mx-auto md:px-7 px-5 mt-5 mb-16">
+      <a href="https://t.me/aziko_015" target="_blank" class="bg-blue-400 flex w-full p-2 rounded-lg items-center justify-center mb-6">
+        <svg style="width:30px;height:20px;vertical-align:middle;margin:0px 5px;" viewBox="0 0 21 18"><g fill="none"><path fill="#ffffff" d="M0.554,7.092 L19.117,0.078 C19.737,-0.156 20.429,0.156 20.663,0.776 C20.745,0.994 20.763,1.23 20.713,1.457 L17.513,16.059 C17.351,16.799 16.62,17.268 15.88,17.105 C15.696,17.065 15.523,16.987 15.37,16.877 L8.997,12.271 C8.614,11.994 8.527,11.458 8.805,11.074 C8.835,11.033 8.869,10.994 8.905,10.958 L15.458,4.661 C15.594,4.53 15.598,4.313 15.467,4.176 C15.354,4.059 15.174,4.037 15.036,4.125 L6.104,9.795 C5.575,10.131 4.922,10.207 4.329,10.002 L0.577,8.704 C0.13,8.55 -0.107,8.061 0.047,7.614 C0.131,7.374 0.316,7.182 0.554,7.092 Z"></path></g></svg>                 
+        <p class="font-medium text-base text-white">Bizga Telegramda qo'shiling!</p>   
+      </a>
+      <div class="flex items-center justify-between">
+        <div class="md:w-80 w-full flex justify-between">
+          <div class="bg-regal-black-2 border border-regal-black-3 md:justify-between rounded flex items-center w-full">
+            <div class="w-full">
+              <input type="text" placeholder="Film izlash..." class="placeholder:text-sm placeholder:text-regal-white placeholder:italic w-full bg-regal-black-2 outline-none text-regal-white focus:bg-regal-puple-2 px-5 py-2">
+            </div>
+            <div class="px-3 cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4  h-6 stroke-2 text-regal-white hover:text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="md:flex hidden items-center gap-3">
+          <div class="bg-regal-black-2 p-2 border border-regal-black-3 rounded hover:bg-regal-puple-2 cursor-pointer hover:duration-200 " title="Premyera!">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-regal-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 01-1.125-1.125M3.375 19.5h1.5C5.496 19.5 6 18.996 6 18.375m-3.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-1.5A1.125 1.125 0 0118 18.375M20.625 4.5H3.375m17.25 0c.621 0 1.125.504 1.125 1.125M20.625 4.5h-1.5C18.504 4.5 18 5.004 18 5.625m3.75 0v1.5c0 .621-.504 1.125-1.125 1.125M3.375 4.5c-.621 0-1.125.504-1.125 1.125M3.375 4.5h1.5C5.496 4.5 6 5.004 6 5.625m-3.75 0v1.5c0 .621.504 1.125 1.125 1.125m0 0h1.5m-1.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m1.5-3.75C5.496 8.25 6 7.746 6 7.125v-1.5M4.875 8.25C5.496 8.25 6 8.754 6 9.375v1.5m0-5.25v5.25m0-5.25C6 5.004 6.504 4.5 7.125 4.5h9.75c.621 0 1.125.504 1.125 1.125m1.125 2.625h1.5m-1.5 0A1.125 1.125 0 0118 7.125v-1.5m1.125 2.625c-.621 0-1.125.504-1.125 1.125v1.5m2.625-2.625c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125M18 5.625v5.25M7.125 12h9.75m-9.75 0A1.125 1.125 0 016 10.875M7.125 12C6.504 12 6 12.504 6 13.125m0-2.25C6 11.496 5.496 12 4.875 12M18 10.875c0 .621-.504 1.125-1.125 1.125M18 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m-12 5.25v-5.25m0 5.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125m-12 0v-1.5c0-.621-.504-1.125-1.125-1.125M18 18.375v-5.25m0 5.25v-1.5c0-.621.504-1.125 1.125-1.125M18 13.125v1.5c0 .621.504 1.125 1.125 1.125M18 13.125c0-.621.504-1.125 1.125-1.125M6 13.125v1.5c0 .621-.504 1.125-1.125 1.125M6 13.125C6 12.504 5.496 12 4.875 12m-1.5 0h1.5m-1.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125M19.125 12h1.5m0 0c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h1.5m14.25 0h1.5" />
+            </svg>
+          </div>
+          <div class="bg-regal-black-2 p-2 border border-regal-black-3 rounded hover:bg-regal-puple-2 cursor-pointer hover:duration-200 " title="Aloqa">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-regal-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 9.75a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 01.778-.332 48.294 48.294 0 005.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+            </svg>
+          </div>
+          <div class="bg-regal-black-2 p-2 border border-regal-black-3 rounded hover:bg-regal-puple-2 cursor-pointer hover:duration-200 " title="Sayt statistikasi">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-regal-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+            </svg>
+            </svg>
+          </div>
+          <div class="bg-regal-black-2 p-2 border border-regal-black-3 rounded hover:bg-regal-puple-2 cursor-pointer hover:duration-200 " title="Qoida">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-regal-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="md:hidden flex flex-col mt-3">
+        <div class="bg-regal-black-2 border mb-2 border-regal-puple-2 hover:bg-regal-puple-2 hover:duration-200 p-2 rounded flex items-center gap-2">
+           <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-regal-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 01-1.125-1.125M3.375 19.5h1.5C5.496 19.5 6 18.996 6 18.375m-3.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-1.5A1.125 1.125 0 0118 18.375M20.625 4.5H3.375m17.25 0c.621 0 1.125.504 1.125 1.125M20.625 4.5h-1.5C18.504 4.5 18 5.004 18 5.625m3.75 0v1.5c0 .621-.504 1.125-1.125 1.125M3.375 4.5c-.621 0-1.125.504-1.125 1.125M3.375 4.5h1.5C5.496 4.5 6 5.004 6 5.625m-3.75 0v1.5c0 .621.504 1.125 1.125 1.125m0 0h1.5m-1.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m1.5-3.75C5.496 8.25 6 7.746 6 7.125v-1.5M4.875 8.25C5.496 8.25 6 8.754 6 9.375v1.5m0-5.25v5.25m0-5.25C6 5.004 6.504 4.5 7.125 4.5h9.75c.621 0 1.125.504 1.125 1.125m1.125 2.625h1.5m-1.5 0A1.125 1.125 0 0118 7.125v-1.5m1.125 2.625c-.621 0-1.125.504-1.125 1.125v1.5m2.625-2.625c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125M18 5.625v5.25M7.125 12h9.75m-9.75 0A1.125 1.125 0 016 10.875M7.125 12C6.504 12 6 12.504 6 13.125m0-2.25C6 11.496 5.496 12 4.875 12M18 10.875c0 .621-.504 1.125-1.125 1.125M18 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m-12 5.25v-5.25m0 5.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125m-12 0v-1.5c0-.621-.504-1.125-1.125-1.125M18 18.375v-5.25m0 5.25v-1.5c0-.621.504-1.125 1.125-1.125M18 13.125v1.5c0 .621.504 1.125 1.125 1.125M18 13.125c0-.621.504-1.125 1.125-1.125M6 13.125v1.5c0 .621-.504 1.125-1.125 1.125M6 13.125C6 12.504 5.496 12 4.875 12m-1.5 0h1.5m-1.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125M19.125 12h1.5m0 0c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h1.5m14.25 0h1.5"/>
+            </svg>
+          </div>
+          <a href="#" class="text-sm text-regal-white font-medium">Premyera! </a>
+        </div>
+        <div class="bg-regal-black-2 border mb-2 border-regal-puple-2 hover:bg-regal-puple-2 hover:duration-200 p-2 rounded flex items-center gap-2">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-regal-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 9.75a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 01.778-.332 48.294 48.294 0 005.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+            </svg>
+          </svg>
+        </div>
+        <a href="#" class="text-sm text-regal-white font-medium">Aloqa</a>
+        </div>
+        <div class="bg-regal-black-2 border mb-2 border-regal-puple-2 hover:bg-regal-puple-2 hover:duration-200 p-2 rounded flex items-center gap-2">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-regal-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+            </svg>
+            </svg>
+        </div>
+        <a href="#" class="text-sm text-regal-white font-medium">Sayt statistikasi</a>
+        </div>
+        <div class="bg-regal-black-2 border mb-2 border-regal-puple-2 hover:bg-regal-puple-2 hover:duration-200 p-2 rounded flex items-center gap-2">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-regal-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+            </svg>
+        </div>
+        <a href="#" class="text-sm text-regal-white font-medium">Qoida</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- serach -->
+  <!-- slider-bar -->
+  <section id="slider-bar" class="bg-regal-puple-4 bg-opacity-60"> 
+    <div class="max-w-1170 w-full mx-auto md:px-7 px-5 py-10">
+      <div class="py-3">
+        <p class="font-bold sm:text-xl text-base uppercase text-regal-white border-l-8 border-regal-puple pl-2">PREMYERA</p>
+      </div>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper  items-center">
+          <div class="swiper-slide cursor-pointer">
+            <div class="relative swiper-content group">
+              <img src="img/image.jpg" alt="" class="max-h-669 h-669 bg-cover w-1190 md:flex hidden">  
+              <img src="img/imge-2.jpg" alt="" class="max-h-669 bg-cover w-1190 md:hidden flex">    
+              <div class="absolute md:bottom-14 bottom-5 sm:left-8 left-3">
+                <p class="md:text-4xl sm:text-xl text-sm  font-bold text-white group-hover:text-regal-blue group-hover:duration-300">Chumoli odam va ari 3 kvantamaniya kvant olam prem...</p>
+              </div>
+              <div class="absolute inset-x-0 inset-y-0 items-center  flex justify-center">
+                <span class="bg-regal-green rounded-full sm:p-2 p-1  bg-opacity-60">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:w-20 w-10 md:h-20 h-10 opacity-80 text-regal-blue group-hover:scale-125 group-hover:duration-300">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide cursor-pointer">
+            <div class="relative swiper-content group">
+              <img src="img/image-1.webp.crdownload" alt="" class="max-h-669 h-669 bg-cover w-1190 md:flex hidden">  
+              <img src="img/imge-1.jpg" alt="" class="max-h-669 bg-cover w-1190 md:hidden flex">    
+              <div class="absolute md:bottom-14 bottom-5 sm:left-8 left-3">
+                <p class="md:text-4xl sm:text-xl text-sm  font-bold text-white group-hover:text-regal-blue group-hover:duration-300">Arvoh qotillari premyera</p>
+              </div>
+              <div class="absolute inset-x-0 inset-y-0 items-center  flex justify-center">
+                <span class="bg-regal-green rounded-full sm:p-2 p-1  bg-opacity-60">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:w-20 w-10 md:h-20 h-10 opacity-80 text-regal-blue group-hover:scale-125 group-hover:duration-300">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide cursor-pointer">
+            <div class="swiper-content relative group ">
+              <img src="img/image-3.jpg" alt="" class="max-h-669 h-669 bg-cover w-1190 md:flex hidden">  
+              <img src="img/imgee-3.jpg" alt="" class="h-669 bg-cover w-1190 md:hidden flex">     
+              <div class="absolute md:bottom-14 bottom-5 sm:left-8 left-3">
+                <p class="md:text-4xl sm:text-xl text-sm  font-bold text-white group-hover:text-regal-blue group-hover:duration-300">16 daraja level premyera</p>
+              </div>
+              <div class="absolute inset-x-0 inset-y-0 items-center  flex justify-center">
+                <span class="bg-regal-green rounded-full sm:p-2 p-1  bg-opacity-60">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:w-20 w-10 md:h-20 h-10 opacity-80 text-regal-blue group-hover:scale-125 group-hover:duration-300">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide cursor-pointer">
+            <div class="relative swiper-content group ">
+              <img src="img/image-4.jpg" alt="" class="max-h-669 h-669 bg-cover w-1190 md:flex hidden">  
+              <img src="img/imge-4.jpg" alt="" class="max-h-669 bg-cover w-1190 md:hidden flex">      
+              <div class="absolute md:bottom-14 bottom-5 sm:left-8 left-3">
+                <p class="md:text-4xl sm:text-xl text-sm  font-bold text-white group-hover:text-regal-blue group-hover:duration-300">Politsiyachilar avlodi premyera</p>
+              </div>
+              <div class="absolute inset-x-0 inset-y-0 items-center  flex justify-center">
+                <span class="bg-regal-green rounded-full sm:p-2 p-1  bg-opacity-60">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:w-20 w-10 md:h-20 h-10 opacity-80 text-regal-blue group-hover:scale-125 group-hover:duration-300">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide cursor-pointer">
+            <div class="relative group ">
+              <img src="img/image-5.jpg" alt="" class="max-h-669 h-669 bg-cover w-1190 md:flex hidden">  
+              <img src="img/imge-5.jpg" alt="" class="max-h-669 bg-cover w-1190 md:hidden flex">  
+              <div class="absolute md:bottom-14 bottom-5 sm:left-8 left-3">
+                <p class="md:text-4xl sm:text-xl text-sm  font-bold text-white group-hover:text-regal-blue group-hover:duration-300">Brazilcha o'g'rlik premyera</p>
+              </div>
+              <div class="absolute inset-x-0 inset-y-0 items-center  flex justify-center">
+                <span class="bg-regal-green rounded-full sm:p-2 p-1  bg-opacity-60">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:w-20 w-10 md:h-20 h-10 opacity-80 text-regal-blue group-hover:scale-125 group-hover:duration-300">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide cursor-pointer">
+              <div class="relative group ">
+                <img src="img/image-6.jpg" alt="" class="max-h-669 h-669 bg-cover w-1190 md:flex hidden">  
+                <img src="img/imge-6.jpg" alt="" class="max-h-669 bg-cover w-1190 md:hidden flex">  
+                <div class="absolute md:bottom-14 bottom-5 sm:left-8 left-3">
+                  <p class="md:text-4xl sm:text-xl text-sm  font-bold text-white group-hover:text-regal-blue group-hover:duration-300">Mening buzilgan janjalli to'yim premyera,</p>
+                </div>
+                <div class="absolute inset-x-0 inset-y-0 items-center  flex justify-center">
+                  <span class="bg-regal-green rounded-full sm:p-2 p-1  bg-opacity-60">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:w-20 w-10 md:h-20 h-10 opacity-80 text-regal-blue group-hover:scale-125 group-hover:duration-300">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide cursor-pointer">
+              <div class="relative group ">
+                <img src="img/image-7.jpg" alt="" class="max-h-669 h-669 bg-cover w-1190 md:flex hidden">  
+                <img src="img/imge-7.jpg" alt="" class="max-h-669 bg-cover w-1190 md:hidden flex">  
+                <div class="absolute md:bottom-14 bottom-5 sm:left-8 left-3">
+                  <p class="md:text-4xl sm:text-xl text-sm  font-bold text-white group-hover:text-regal-blue group-hover:duration-300">Detsibel koreya filmi premyera</p>
+                </div>
+                <div class="absolute inset-x-0 inset-y-0 items-center  flex justify-center">
+                  <span class="bg-regal-green rounded-full sm:p-2 p-1  bg-opacity-60">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:w-20 w-10 md:h-20 h-10 opacity-80 text-regal-blue group-hover:scale-125 group-hover:duration-300">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cursor-pointer">
+              <div class="relative group ">
+                <img src="img/image-8.jpg" alt="" class="max-h-669 h-669 bg-cover w-1190 md:flex hidden">  
+                <img src="img/imge-.jpg" alt="" class="max-h-669 bg-cover w-1190 md:hidden flex">  
+                <div class="absolute md:bottom-14 bottom-5 sm:left-8 left-3">
+                  <p class="md:text-4xl sm:text-xl text-sm  font-bold text-white group-hover:text-regal-blue group-hover:duration-300">Detsibel koreya filmi premyera</p>
+                </div>
+                <div class="absolute inset-x-0 inset-y-0 items-center  flex justify-center">
+                  <span class="bg-regal-green rounded-full sm:p-2 p-1  bg-opacity-60">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:w-20 w-10 md:h-20 h-10 opacity-80 text-regal-blue group-hover:scale-125 group-hover:duration-300">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="absolute z-50 sm:flex hidden items-center justify-between inset-x-0 top-52">
+          <div class="swiper-button-p  bg-regal-puple  px-2 py-4 rounded-r hover:bg-regal-grey cursor-pointer bg-opacity-60 hover:bg-opacity-70">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+          </div>
+          <div class="swiper-button-n bg-regal-puple px-2 py-4 rounded-l hover:bg-regal-grey cursor-pointer bg-opacity-60 hover:bg-opacity-70">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /slider-bar -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
